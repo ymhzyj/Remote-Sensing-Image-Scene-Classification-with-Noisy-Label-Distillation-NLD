@@ -3,7 +3,7 @@
 
 目录结构:  
 根目录/   
-        config/ 训练参数配置文件，分别针对不同的数据集/  
+&emsp &emsp config/ 训练参数配置文件，分别针对不同的数据集/  
                 AID  
                 NWPU45  
                 UCMerced  
