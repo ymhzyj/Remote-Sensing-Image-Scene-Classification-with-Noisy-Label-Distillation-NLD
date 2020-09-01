@@ -5,38 +5,40 @@
 
 
 # 目录结构:
-根目录/
-        config/ 训练参数配置文件，分别针对不同的数据集/
-                AID
-                NWPU45
-                UCMerced
-        data/ 数据集存放位置，以及数据预处理文件
-                NWPU-RESISC45
-                                                Images/类别
-                                                Split/训练测试划分
-                                                NWPU45_split.py
-                UCMerced_LandUse
-                                                Images/类别
-                                                Split
-                                                UCMerced_split.py
-        dataset/ 数据集预处理文件
-                aid
-                nwpu45
-                ucmerced 数据集预处理
-                cls_transforms 通用预处理函数
-        losses/ 其他Pytorch实现的损失函数
-        models/ 实验模型
-                getnet 用于主函数获取模型的端口
-                Resnet
-                VGG 模型实现
-        runs/ 用于记录实验结果
-        utils/ 
-                progress_bar 进度条显示
-                utils 精度测量，模型保存函数等
-        main_数据集名称_noisy 噪声标签实验
-        main_数据集名称_clean 干净标签实验
+
+    根目录/
+            config/ 训练参数配置文件，分别针对不同的数据集/
+                    AID
+                    NWPU45
+                    UCMerced
+            data/ 数据集存放位置，以及数据预处理文件
+                    NWPU-RESISC45
+                                                    Images/类别
+                                                    Split/训练测试划分
+                                                    NWPU45_split.py
+                    UCMerced_LandUse
+                                                    Images/类别
+                                                    Split
+                                                    UCMerced_split.py
+            dataset/ 数据集预处理文件
+                    aid
+                    nwpu45
+                    ucmerced 数据集预处理
+                    cls_transforms 通用预处理函数
+            losses/ 其他Pytorch实现的损失函数
+            models/ 实验模型
+                    getnet 用于主函数获取模型的端口
+                    Resnet
+                    VGG 模型实现
+            runs/ 用于记录实验结果
+            utils/ 
+                    progress_bar 进度条显示
+                    utils 精度测量，模型保存函数等
+            main_数据集名称_noisy 噪声标签实验
+            main_数据集名称_clean 干净标签实验
 
 # 配置方法
+
     提出的方法：
                 dataset_split.py用于分割数据集，并且生成固定的噪声标签和干净标签，方便比较
                 main_dataset_noisy.py
