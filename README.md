@@ -63,13 +63,14 @@
 
 
 # 论文引用格式：
-@article{zhang2020remote,
-  title={Remote Sensing Image Scene Classification with Noisy Label Distillation},
-  author={Zhang, Rui and Chen, Zhenghao and Zhang, Sanxing and Song, Fei and Zhang, Gang and Zhou, Quancheng and Lei, Tao},
-  journal={Remote Sensing},
-  volume={12},
-  number={15},
-  pages={2376},
-  year={2020},
-  publisher={Multidisciplinary Digital Publishing Institute}
-}
+
+    @article{zhang2020remote,
+      title={Remote Sensing Image Scene Classification with Noisy Label Distillation},
+      author={Zhang, Rui and Chen, Zhenghao and Zhang, Sanxing and Song, Fei and Zhang, Gang and Zhou, Quancheng and Lei, Tao},
+      journal={Remote Sensing},
+      volume={12},
+      number={15},
+      pages={2376},
+      year={2020},
+      publisher={Multidisciplinary Digital Publishing Institute}
+    }
