@@ -1,0 +1,13 @@
+ 
+1->9 bareland → desert, 
+5->28 centre → storage tank, 
+6->5,28 church → centre, storage tank; 
+8->14 dense residential → medium residential, 
+9->1 desert → bareland,
+12->14 industrial → medium residential,
+13->10 meadow → farm land,
+14->8 medium residential → dense residential, 
+18->13,24 play ground →meadow, school; 
+22->14 resort → medium residential, 
+24->14,18 school → medium residential, play ground; 
+27->18 stadium → play ground
