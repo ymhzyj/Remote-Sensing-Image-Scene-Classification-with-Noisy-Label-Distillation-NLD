@@ -1,5 +1,6 @@
 本代码来自于论文"Remote Sensing Image Scene Classification with Noisy Label Distillation"
 发表于Remote Sensing
+https://www.mdpi.com/2072-4292/12/15/2376
 
 ----------
 
